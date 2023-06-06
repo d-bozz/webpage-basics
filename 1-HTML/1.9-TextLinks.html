@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>HTML TextLinks</title>
+        <meta charset="UTF-8">
+        <style>
+            #linkColor:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+            #linkColor:visited {
+            color: violet;
+            background-color: transparent;
+            text-decoration: none;
+            }
+
+            #linkColor:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+
+            #linkColor:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>URLs Absolutas</h1>
+        <hr>
+        <a href="https://www.google.com.uy">Ir a google en la misma pestaña</a><br>
+        <a href="https://www.google.com.uy" target="_blank">Ir a google en otra pestaña</a>
+        <br>
+
+        <h1>URLs Relativas</h1>
+        <hr>
+        <a href="../index.html">Volver a los indices</a>
+        <br>
+
+        <h1>Usar una imagen como link</h1>
+        <hr>
+        <p>La siguiente imagen va a redirigirlo a google:</p>
+        <a href="https://www.google.com.uy"><img src="src/google.png" alt="Ir a google" style="width:42px;height:42px;"></a>
+        <br>
+
+        <h1>Email Address link to</h1>
+        <hr>
+        <a href="mailto:r.damian.boz@gmail.com">Envianos un email</a>
+        <br>
+
+        <h1>Boton como un link</h1>
+        <hr>
+        <button onclick="document.location='../index.html'">Volver al indice</button>
+        <br>
+
+        <h1>Link Titles</h1>
+        <hr>
+        <a href="https://www.google.com.uy" title="Si le haces click a este enlace iras a google">Haz mouse over aqui</a>
+        <br>
+
+        <h1>Link colors</h1>
+        <hr>
+        <a id="linkColor" href="https://www.google.com.uy">Este link cambia de color</a>
+        <br>
+
+        <h1>HTML Links Bookmarks - Misma pagina</h1>
+        <hr>
+        <a href="#title1">Saltar al titulo de esta pagina</a>
+        <br>
+        
+        <h2>HTML Links Bookmarks - Otra pagina</h2>
+        <a href="1.2-BodyAttributes.html#title1">Saltar al titulo de otra pagina</a>
+    </body>
+</html>

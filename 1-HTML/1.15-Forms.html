@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Forms</title>
+   </head>
+	
+   <body>
+    <h1>Single-line text input controls</h1>
+    <hr>
+      <form >
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+      </form>
+
+    <h1>Password input controls</h1>
+    <hr>
+    <form >
+        User ID : <input type = "text" name = "user_id" />
+        <br>
+        Password: <input type = "password" name = "password" />
+    </form>
+
+    <h1>Multiple-Line Text Input Controls</h1>
+    <hr>
+    <form>
+        Description : <br />
+        <textarea rows = "5" cols = "50" name = "description">
+           Enter description here...
+        </textarea>
+    </form>
+
+    <h1>Checkbox Control</h1>
+    <hr>
+    <form>
+        <input type = "checkbox" name = "maths" value = "on"> Maths
+        <input type = "checkbox" name = "physics" value = "on"> Physics
+    </form>
+
+    <h1>Radio Button Control</h1>
+    <hr>
+    <form>
+        <input type = "radio" name = "subject" value = "maths"> Maths
+        <input type = "radio" name = "subject" value = "physics"> Physics
+     </form>
+
+    <h1>Select Box Control</h1>
+    <hr>
+    <form>
+        <select name = "dropdown">
+           <option value = "Maths" selected>Maths</option>
+           <option value = "Physics">Physics</option>
+        </select>
+    </form>
+
+    <h1>File Upload Box</h1>
+    <hr>
+    <form>
+        <input type = "file" name = "fileupload" accept = "image/*" />
+    </form>
+
+    <h1>Button Controls</h1>
+    <hr>
+    <form>
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+        <input type = "button" name = "ok" value = "OK" />
+        <input type = "image" name = "imagebutton" src = "src/google.png" width="50px" height="50px"/>
+     </form>
+
+    <h1>Email input</h1>
+    <hr>
+    <form>
+     <p>
+        <label>Email : <input type="email"
+            name="email" /></label>
+    </p>
+    </form>
+
+    <h1>Date input</h1>
+    <hr>
+    <form>
+    <p>
+        <label>Date of Birth : <input type="date"
+            name="birthDate"></label>
+    </p>
+    </form>
+
+    <h1>Hidden Form Controls</h1>
+    <hr>
+    <form>
+        <p>This is page 10</p>
+        <input type = "hidden" name = "pagename" value = "10" />
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+     </form>
+   </body>
+</html>

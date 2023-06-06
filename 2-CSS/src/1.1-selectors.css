@@ -1,0 +1,38 @@
+/* The CSS element Selector */
+p {
+    color: red;
+  }
+
+/* The CSS id Selector */
+#para1 {
+    text-align: center;
+    color: blue;
+  }
+
+/* The CSS class Selector */
+.center {
+    text-align: center;
+    color: green;
+  }
+
+  /* More than one class */
+  p.center {
+    text-align: center;
+  }
+  
+  p.large {
+    font-size: 300%;
+    color: yellow;
+  }
+
+/* The CSS Universal Selector */
+* {
+    text-align: left;
+    color: blue;
+  }
+
+/* The CSS Grouping Selector */
+h1, h2, p {
+    text-align: center;
+    color: black;
+  }
